@@ -17,7 +17,8 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-          CustomAppBar()
+          CustomAppBar(),
+          Welcome()
           ],
         ),
       ),
